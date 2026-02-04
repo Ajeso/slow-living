@@ -60,3 +60,36 @@ button {
   width: 25%;
   font-size: 18px;
 }
+.habit-card img {
+  width: 200px;
+  height: 150px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+.content-section {
+  margin: 0 auto;
+}
+.content-section h3 {
+  font-size: 36px;
+  text-align: center;
+  padding-top: 2rem;
+  letter-spacing: 2px;
+}
+.habits {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+
+  max-width: 1100px;
+  margin: 80px auto;
+  padding: 0 16px;
+}
+.habit-card {
+  background: #f5f5f5;
+  border-radius: 16px;
+  padding: 20px;
+  text-align: left;
+}
+.habit-card h4 {
+  padding: 10px 0;
+}
